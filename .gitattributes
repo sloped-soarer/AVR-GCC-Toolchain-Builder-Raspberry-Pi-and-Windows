@@ -1,0 +1,5 @@
+*.sh text eol=lf
+*.yml text eol=lf
+avr-gcc-15.2.0-aarch64-linux.zip filter=lfs diff=lfs merge=lfs -text
+avr-gcc-15.2.0-x64-windows.zip filter=lfs diff=lfs merge=lfs -text
+avr-gcc-15.2.0-x86-windows.zip filter=lfs diff=lfs merge=lfs -text
